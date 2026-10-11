@@ -1,0 +1,214 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg: #050a12;
+  --color-bg-2: #081321;
+  --color-surface: #0b1728;
+  --color-elevated: #0d1b2d;
+  --color-cyan: #00e5ff;
+  --color-blue: #168bff;
+  --color-violet: #815bff;
+  --color-ink: #f1f7ff;
+  --color-ink-2: #93a9c7;
+  --color-ink-3: #5f7594;
+  --color-line: #16365b;
+  --font-display: "Space Grotesk", "Inter", system-ui, sans-serif;
+  --font-sans: "Inter", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+html {
+  background: var(--color-bg);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  overflow-x: hidden;
+  background:
+    radial-gradient(60rem 30rem at 85% -5%, rgba(22, 139, 255, 0.14), transparent 60%),
+    radial-gradient(40rem 24rem at 0% 30%, rgba(129, 91, 255, 0.07), transparent 60%),
+    linear-gradient(180deg, var(--color-bg) 0%, var(--color-bg-2) 100%);
+  background-attachment: fixed;
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-cyan);
+  outline-offset: 3px;
+  border-radius: 6px;
+}
+
+/* ---------- Panels ---------- */
+.panel {
+  background: linear-gradient(180deg, rgba(13, 27, 45, 0.92), rgba(11, 23, 40, 0.92));
+  border: 1px solid var(--color-line);
+  border-radius: 14px;
+  box-shadow:
+    inset 0 1px 0 rgba(120, 190, 255, 0.07),
+    0 12px 32px rgba(0, 0, 0, 0.35);
+  padding: 1.25rem;
+}
+@supports (backdrop-filter: blur(8px)) {
+  .panel {
+    background: linear-gradient(180deg, rgba(13, 27, 45, 0.72), rgba(11, 23, 40, 0.72));
+    backdrop-filter: blur(10px);
+  }
+}
+.panel-title {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 1rem;
+  letter-spacing: 0.01em;
+  margin: 0 0 1rem;
+}
+.mono-label {
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  letter-spacing: 0.08em;
+  color: var(--color-ink-3);
+  text-transform: uppercase;
+}
+.chip {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  padding: 0.15rem 0.5rem;
+  border-radius: 6px;
+  border: 1px solid var(--color-line);
+  color: var(--color-cyan);
+  background: rgba(0, 229, 255, 0.05);
+}
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  min-height: 44px;
+  padding: 0 1rem;
+  border-radius: 10px;
+  border: 1px solid var(--color-line);
+  background: rgba(22, 139, 255, 0.08);
+  color: var(--color-ink);
+  font-size: 0.9rem;
+  text-decoration: none;
+  transition: border-color 0.2s, background-color 0.2s, filter 0.2s;
+}
+.btn:hover {
+  border-color: var(--color-cyan);
+  background: rgba(0, 229, 255, 0.12);
+}
+.btn-primary {
+  background: var(--color-blue);
+  border-color: var(--color-blue);
+  color: #02101f;
+  font-weight: 600;
+}
+.btn-primary:hover {
+  filter: brightness(1.12);
+  background: var(--color-blue);
+}
+
+/* ---------- Builder Pass ---------- */
+.pass-stage {
+  perspective: 1000px;
+  /* Tune the loop here. */
+  --float-duration: 6.5s;
+  --float-y: 14px;
+  --float-x: 3px;
+  --float-rot: 1.5deg;
+  --float-scale: 0.008;
+}
+
+/* Outer wrapper: the endless float + tilt loop. Transform-only, GPU friendly.
+   First and last keyframes are identical, so the loop has no visible seam. */
+.pass-float {
+  animation: pass-float var(--float-duration) ease-in-out infinite;
+  transform-origin: 50% 50%;
+  will-change: transform;
+}
+@keyframes pass-float {
+  0%,
+  100% {
+    transform: translate3d(0, 0, 0) rotate(calc(var(--float-rot) * -1)) scale(1);
+  }
+  25% {
+    transform: translate3d(var(--float-x), calc(var(--float-y) * -0.5), 0) rotate(0deg)
+      scale(calc(1 + var(--float-scale) * 0.5));
+  }
+  50% {
+    transform: translate3d(0, calc(var(--float-y) * -1), 0) rotate(var(--float-rot))
+      scale(calc(1 + var(--float-scale)));
+  }
+  75% {
+    transform: translate3d(calc(var(--float-x) * -1), calc(var(--float-y) * -0.5), 0) rotate(0deg)
+      scale(calc(1 + var(--float-scale) * 0.5));
+  }
+}
+
+.pass-card {
+  position: relative;
+  border-radius: 18px;
+  padding: 1px;
+  background: linear-gradient(135deg, var(--color-cyan), var(--color-blue) 55%, var(--color-violet));
+  box-shadow:
+    0 0 30px rgba(0, 229, 255, 0.14),
+    0 0 80px rgba(22, 139, 255, 0.12);
+}
+.pass-body {
+  position: relative;
+  overflow: hidden;
+  border-radius: 17px;
+  background:
+    radial-gradient(18rem 10rem at 100% 0%, rgba(129, 91, 255, 0.14), transparent 70%),
+    linear-gradient(160deg, rgba(10, 24, 44, 0.96), rgba(6, 14, 27, 0.97));
+}
+.pass-body::after {
+  /* decorative scan lines, kept faint so text stays readable */
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: repeating-linear-gradient(0deg, rgba(0, 229, 255, 0.035) 0 1px, transparent 1px 4px);
+}
+.pass-grid {
+  position: absolute;
+  right: -30px;
+  top: 30px;
+  width: 170px;
+  height: 170px;
+  opacity: 0.35;
+  pointer-events: none;
+}
+
+/* ---------- Reduced motion ---------- */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  .pass-float {
+    animation: none;
+    will-change: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    transition-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+  }
+}
+
+@keyframes caret {
+  50% {
+    opacity: 0;
+  }
+}
+.caret {
+  display: inline-block;
+  width: 0.55ch;
+  height: 1em;
+  margin-left: 2px;
+  vertical-align: -0.12em;
+  background: var(--color-cyan);
+  animation: caret 1.1s steps(1) infinite;
+}
