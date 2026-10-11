@@ -28,26 +28,36 @@
 <br />
 
 <!-- ═══════════════════════════════════════════════════════════ -->
-<!--                    VERTICAL STACKED LAYOUT                 -->
+<!--                    PROFILE — LEFT PHOTO + RIGHT DETAILS    -->
 <!-- ═══════════════════════════════════════════════════════════ -->
 
-<div align="center">
+<table align="center" width="100%">
+<tr>
 
-<!-- ═══════════════════════════════════════════ -->
-<!-- 1. PROFILE PHOTO                             -->
-<!-- ═══════════════════════════════════════════ -->
+<!-- ═══ LEFT SIDE — CIRCULAR PHOTO ═══ -->
+<td align="center" valign="middle" width="35%">
 
-<h2>⚡ USER PROFILE ⚡</h2>
+<img src="https://i.ibb.co/bSmMzzg/Futuristic-Circular-Portrait-Avatar.png" alt="Bhagaban" width="220" height="220" />
 
-<img src="https://github.com/bablu-bd7.png?size=300" alt="Avatar" width="150" height="150" />
+</td>
 
-<br /><br />
+<!-- ═══ RIGHT SIDE — DETAILS IN RED ═══ -->
+<td align="left" valign="middle" width="65%">
 
-<h1>BHAGABAN</h1>
+<h1 style="color:#FF0000;">BHAGABAN</h1>
 
-<code>@bablu-bd7</code>
+<h3 style="color:#FF0000;">@bablu-bd7</h3>
 
-<p><b>B.Tech CSE Student</b><br/>Full-Stack Developer & AI Enthusiast</p>
+<p style="color:#FF0000; font-size:16px;">
+<b>B.Tech CSE Student</b><br />
+Full-Stack Developer & AI Enthusiast
+</p>
+
+<p style="color:#FF0000;">
+<b>⚡ FOCUS:</b> Web Development · Software Engineering · AI Exploration<br />
+<b>📍 LOCATION:</b> India<br />
+<b>🚀 STATUS:</b> Learn / Build / Innovate
+</p>
 
 <a href="https://github.com/bablu-bd7">
 <img src="https://img.shields.io/github/followers/bablu-bd7?style=for-the-badge&logo=github&label=FOLLOW&color=00F0FF&labelColor=121826" alt="Follow" />
@@ -57,10 +67,21 @@
 
 <img src="https://komarev.com/ghpvc/?username=bablu-bd7&label=VIEWS&color=9D00FF&style=for-the-badge&labelColor=121826" alt="Views" />
 
+</td>
+
+</tr>
+</table>
+
 <br /><br />
 
+<!-- ═══════════════════════════════════════════════════════════ -->
+<!--                    VERTICAL STACKED LAYOUT                 -->
+<!-- ═══════════════════════════════════════════════════════════ -->
+
+<div align="center">
+
 <!-- ═══════════════════════════════════════════ -->
-<!-- 2. AUTO-PLAYING GIF (Full Width)              -->
+<!-- 1. AUTO-PLAYING GIF (Full Width)              -->
 <!-- ═══════════════════════════════════════════ -->
 
 <img src="https://github.com/bablu-bd7/bablu-bd7/raw/main/bhagaban-portfolio/assets/lv_7666298190123093264_20261011225600.gif" alt="Auto-playing Demo" width="100%" />
@@ -68,7 +89,7 @@
 <br /><br />
 
 <!-- ═══════════════════════════════════════════ -->
-<!-- 3. TECH STACK                                -->
+<!-- 2. TECH STACK                                -->
 <!-- ═══════════════════════════════════════════ -->
 
 <h2>⚡ TECH ARSENAL ⚡</h2>
@@ -89,35 +110,35 @@
 <br /><br />
 
 <!-- ═══════════════════════════════════════════ -->
-<!-- 4. GITHUB STATS                              -->
+<!-- 3. GITHUB STATS                              -->
 <!-- ═══════════════════════════════════════════ -->
 
 <h2>📊 SYSTEM STATS 📊</h2>
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=bablu-bd7&show_icons=true&bg_color=121826&title_color=00F0FF&text_color=FFFFFF&icon_color=9D00FF&hide_border=true&rank_icon=github&border_radius=10" alt="Stats" />
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=bablu-bd7&show_icons=true&bg_color=121826&title_color=FF007A&text_color=FFFFFF&icon_color=00F0FF&hide_border=true&rank_icon=github&border_radius=10" alt="Stats" />
 
 <br /><br />
 
-<img height="165" src="https://streak-stats.demolab.com/?user=bablu-bd7&background=121826&ring=00F0FF&fire=FF007A&currStreakLabel=00F0FF&sideLabels=9D00FF&dates=FFFFFF&hide_border=true&border_radius=10" alt="Streak" />
+<img height="165" src="https://streak-stats.demolab.com/?user=bablu-bd7&background=121826&ring=00F0FF&fire=FF007A&currStreakLabel=00F0FF&sideLabels=FF007A&dates=FFFFFF&hide_border=true&border_radius=10" alt="Streak" />
 
 <br /><br />
 
-<img height="155" src="https://github-readme-stats.vercel.app/api/top-langs/?username=bablu-bd7&layout=compact&bg_color=121826&title_color=00F0FF&text_color=FFFFFF&hide_border=true&border_radius=10" alt="Langs" />
+<img height="155" src="https://github-readme-stats.vercel.app/api/top-langs/?username=bablu-bd7&layout=compact&bg_color=121826&title_color=FF007A&text_color=FFFFFF&hide_border=true&border_radius=10" alt="Langs" />
 
 <br /><br />
 
 <!-- ═══════════════════════════════════════════ -->
-<!-- 5. CONTRIBUTION ACTIVITY                     -->
+<!-- 4. CONTRIBUTION ACTIVITY                     -->
 <!-- ═══════════════════════════════════════════ -->
 
 <h2>🔥 ACTIVITY LOG 🔥</h2>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=bablu-bd7&bg_color=121826&color=00F0FF&line=9D00FF&point=FF007A&area=true&area_color=9D00FF&hide_border=true" alt="Activity Graph" width="90%" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=bablu-bd7&bg_color=121826&color=FF007A&line=9D00FF&point=00F0FF&area=true&area_color=9D00FF&hide_border=true" alt="Activity Graph" width="90%" />
 
 <br /><br />
 
 <!-- ═══════════════════════════════════════════ -->
-<!-- 6. PROJECTS                                  -->
+<!-- 5. PROJECTS                                  -->
 <!-- ═══════════════════════════════════════════ -->
 
 <h2>🚀 CLASSIFIED PROJECTS 🚀</h2>
@@ -127,7 +148,7 @@
 <br /><br />
 
 <!-- ═══════════════════════════════════════════ -->
-<!-- 7. CONNECT                                   -->
+<!-- 6. CONNECT                                   -->
 <!-- ═══════════════════════════════════════════ -->
 
 <h2>🤝 CONNECT 🤝</h2>
@@ -146,7 +167,7 @@
 
 <br /><br />
 
-<h3>⚡ SYSTEM ONLINE. READY TO HACK. ⚡</h3>
+<h3 style="color:#FF0000;">⚡ SYSTEM ONLINE. READY TO HACK. ⚡</h3>
 
 <i>Have an interesting idea? Let's make it real.</i>
 
