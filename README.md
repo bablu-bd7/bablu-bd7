@@ -1,26 +1,27 @@
 <!-- ═══════════════════════════════════════════════════════════ -->
-<!-- HACKER GREEN + ORANGE PROFILE — bablu-bd7 -->
+<!-- NEON RGB PROFILE — bablu-bd7 -->
+<!-- Palette: #0A0F1D / #121826 / #00F0FF / #9D00FF / #FF007A -->
 <!-- ═══════════════════════════════════════════════════════════ -->
 
 <div align="center">
 
 <!-- ═══ HEADER ═══ -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,50:FF6B00,100:00FF41&height=150&section=header&text=ACCESS+GRANTED&fontSize=40&fontColor=00FF41&animation=twinkling&fontAlignY=40" alt="Header" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0A0F1D,50:9D00FF,100:00F0FF&height=150&section=header&text=ACCESS+GRANTED&fontSize=40&fontColor=00F0FF&animation=twinkling&fontAlignY=40" alt="Header" width="100%" />
 
 <br />
 
 <!-- ═══ ANIMATED WELCOME MESSAGE ═══ -->
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=800&size=32&duration=3000&pause=800&color=00FF41&center=true&vCenter=true&width=700&height=60&lines=Hi%2C+I+am+Bhagaban+%F0%9F%91%8B;Welcome+to+my+profile+%F0%9F%9A%80;Let%27s+build+something+amazing!" alt="Animated Welcome" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=800&size=32&duration=3000&pause=800&color=00F0FF&center=true&vCenter=true&width=700&height=60&lines=Hi%2C+I+am+Bhagaban+%F0%9F%91%8B;Welcome+to+my+profile+%F0%9F%9A%80;Let%27s+build+something+amazing!" alt="Animated Welcome" />
 
 <br />
 
 <!-- ═══ TYPING ANIMATION ═══ -->
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=20&duration=2800&pause=800&color=FF6B00&center=true&vCenter=true&width=650&height=45&lines=%3E+INITIALIZING+SYSTEM...;%3E+CODE+%2F+BUILD+%2F+INNOVATE;%3E+ACCESS+GRANTED+%5B%E2%9C%93%5D;%3E+HACK+THE+PLANET" alt="Typing" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=20&duration=2800&pause=800&color=9D00FF&center=true&vCenter=true&width=650&height=45&lines=%3E+INITIALIZING+SYSTEM...;%3E+CODE+%2F+BUILD+%2F+INNOVATE;%3E+ACCESS+GRANTED+%5B%E2%9C%93%5D;%3E+HACK+THE+PLANET" alt="Typing" />
 
 <br /><br />
 
 <!-- ═══ DIVIDER ═══ -->
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=14&duration=2000&pause=500&color=00FF41&center=true&vCenter=true&width=600&height=25&lines=%5B+++++++++++++++++++++++++++++++++++++%5D;%5B+SYSTEM+ONLINE+%7C+USER%3A+bablu-bd7+%5D;%5B+++++++++++++++++++++++++++++++++++++%5D" alt="Divider" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=14&duration=2000&pause=500&color=FF007A&center=true&vCenter=true&width=600&height=25&lines=%5B+++++++++++++++++++++++++++++++++++++%5D;%5B+SYSTEM+ONLINE+%7C+USER%3A+bablu-bd7+%5D;%5B+++++++++++++++++++++++++++++++++++++%5D" alt="Divider" />
 
 </div>
 
@@ -49,27 +50,20 @@
 <p><b>B.Tech CSE Student</b><br/>Full-Stack Developer & AI Enthusiast</p>
 
 <a href="https://github.com/bablu-bd7">
-<img src="https://img.shields.io/github/followers/bablu-bd7?style=for-the-badge&logo=github&label=FOLLOW&color=00FF41&labelColor=000000" alt="Follow" />
+<img src="https://img.shields.io/github/followers/bablu-bd7?style=for-the-badge&logo=github&label=FOLLOW&color=00F0FF&labelColor=121826" alt="Follow" />
 </a>
 
 &nbsp;
 
-<img src="https://komarev.com/ghpvc/?username=bablu-bd7&label=VIEWS&color=FF6B00&style=for-the-badge&labelColor=000000" alt="Views" />
+<img src="https://komarev.com/ghpvc/?username=bablu-bd7&label=VIEWS&color=9D00FF&style=for-the-badge&labelColor=121826" alt="Views" />
 
 <br /><br />
 
 <!-- ═══════════════════════════════════════════ -->
-<!-- 2. AUTO-PLAYING GIF (ID Card ki jagah)       -->
+<!-- 2. AUTO-PLAYING GIF (Full Width)              -->
 <!-- ═══════════════════════════════════════════ -->
 
-<h2>🎥 DEMO SHOWCASE 🎥</h2>
-
-<!-- Auto-playing GIF — click ki zaroorat nahi -->
-<img src="https://github.com/bablu-bd7/bablu-bd7/raw/main/bhagaban-portfolio/assets/VID_20261011_225757-ezgif.com-video-cutter.gif" alt="Auto-playing Demo" width="500" />
-
-<br />
-
-<sub><code>[ AUTO-PLAYING • SEAMLESS • NO CONTROLS ]</code></sub>
+<img src="https://github.com/bablu-bd7/bablu-bd7/raw/main/bhagaban-portfolio/assets/lv_7666298190123093264_20261011225600.gif" alt="Auto-playing Demo" width="100%" />
 
 <br /><br />
 
@@ -100,15 +94,15 @@
 
 <h2>📊 SYSTEM STATS 📊</h2>
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=bablu-bd7&show_icons=true&theme=chartreuse-dark&bg_color=000000&title_color=00FF41&text_color=00FF41&icon_color=FF6B00&hide_border=true&rank_icon=github&border_radius=10" alt="Stats" />
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=bablu-bd7&show_icons=true&bg_color=121826&title_color=00F0FF&text_color=FFFFFF&icon_color=9D00FF&hide_border=true&rank_icon=github&border_radius=10" alt="Stats" />
 
 <br /><br />
 
-<img height="165" src="https://streak-stats.demolab.com/?user=bablu-bd7&theme=dark&background=000000&ring=00FF41&fire=FF6B00&currStreakLabel=00FF41&sideLabels=00FF41&dates=00FF41&hide_border=true&border_radius=10" alt="Streak" />
+<img height="165" src="https://streak-stats.demolab.com/?user=bablu-bd7&background=121826&ring=00F0FF&fire=FF007A&currStreakLabel=00F0FF&sideLabels=9D00FF&dates=FFFFFF&hide_border=true&border_radius=10" alt="Streak" />
 
 <br /><br />
 
-<img height="155" src="https://github-readme-stats.vercel.app/api/top-langs/?username=bablu-bd7&layout=compact&theme=chartreuse-dark&bg_color=000000&title_color=00FF41&text_color=00FF41&hide_border=true&border_radius=10" alt="Langs" />
+<img height="155" src="https://github-readme-stats.vercel.app/api/top-langs/?username=bablu-bd7&layout=compact&bg_color=121826&title_color=00F0FF&text_color=FFFFFF&hide_border=true&border_radius=10" alt="Langs" />
 
 <br /><br />
 
@@ -118,7 +112,7 @@
 
 <h2>🔥 ACTIVITY LOG 🔥</h2>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=bablu-bd7&bg_color=000000&color=00FF41&line=FF6B00&point=00FF41&area=true&area_color=00FF41&hide_border=true" alt="Activity Graph" width="90%" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=bablu-bd7&bg_color=121826&color=00F0FF&line=9D00FF&point=FF007A&area=true&area_color=9D00FF&hide_border=true" alt="Activity Graph" width="90%" />
 
 <br /><br />
 
@@ -139,15 +133,15 @@
 <h2>🤝 CONNECT 🤝</h2>
 
 <a href="https://github.com/bablu-bd7">
-<img src="https://img.shields.io/badge/GITHUB-bablu--bd7-000000?style=for-the-badge&logo=github&logoColor=00FF41" alt="GitHub" />
+<img src="https://img.shields.io/badge/GITHUB-bablu--bd7-121826?style=for-the-badge&logo=github&logoColor=00F0FF" alt="GitHub" />
 </a>
 &nbsp;
 <a href="https://www.linkedin.com/in/bhagaban-dhupal-20b390399/">
-<img src="https://img.shields.io/badge/LINKEDIN-BHAGABAN-000000?style=for-the-badge&logo=linkedin&logoColor=FF6B00" alt="LinkedIn" />
+<img src="https://img.shields.io/badge/LINKEDIN-BHAGABAN-121826?style=for-the-badge&logo=linkedin&logoColor=9D00FF" alt="LinkedIn" />
 </a>
 &nbsp;
 <a href="https://www.instagram.com/mr.bablu_010/">
-<img src="https://img.shields.io/badge/INSTAGRAM-mr.bablu__010-000000?style=for-the-badge&logo=instagram&logoColor=00FF41" alt="Instagram" />
+<img src="https://img.shields.io/badge/INSTAGRAM-mr.bablu__010-121826?style=for-the-badge&logo=instagram&logoColor=FF007A" alt="Instagram" />
 </a>
 
 <br /><br />
@@ -161,4 +155,4 @@
 </div>
 
 <!-- ═══ FOOTER ═══ -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00FF41,50:FF6B00,100:000000&height=150&section=footer&reversal=true&animation=twinkling&text=SYSTEM+OFFLINE&fontSize=22&fontColor=000000&fontAlignY=70" alt="Footer" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00F0FF,50:9D00FF,100:0A0F1D&height=150&section=footer&reversal=true&animation=twinkling&text=SYSTEM+OFFLINE&fontSize=22&fontColor=00F0FF&fontAlignY=70" alt="Footer" width="100%" />
