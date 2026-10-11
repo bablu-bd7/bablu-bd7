@@ -9,7 +9,7 @@
 
 <br />
 
-<!-- ═══ ANIMATED WELCOME MESSAGE (Typing SVG) ═══ -->
+<!-- ═══ ANIMATED WELCOME MESSAGE ═══ -->
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=800&size=32&duration=3000&pause=800&color=00FF41&center=true&vCenter=true&width=700&height=60&lines=Hi%2C+I+am+Bhagaban+%F0%9F%91%8B;Welcome+to+my+profile+%F0%9F%9A%80;Let%27s+build+something+amazing!" alt="Animated Welcome" />
 
 <br />
@@ -59,47 +59,17 @@
 <br /><br />
 
 <!-- ═══════════════════════════════════════════ -->
-<!-- 2. STYLISH ID CARD (Colourful Background)   -->
+<!-- 2. AUTO-PLAYING GIF (ID Card ki jagah)       -->
 <!-- ═══════════════════════════════════════════ -->
 
-<h2>🪪 ID CARD 🪪</h2>
+<h2>🎥 DEMO SHOWCASE 🎥</h2>
 
-<!-- ID Card Header with Coloured Background -->
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:00FF41,50:FF6B00,100:00FF41&height=50&text=BUILDER%20PASS%20%23BP-007&fontSize=18&fontColor=000000&fontAlignY=55&animation=twinkling" alt="ID Card Header" width="45%" />
-
-<br />
-
-<!-- ID Card Body with Coloured Background -->
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:FF6B00,100:00FF41&height=200&text=IDENTITY%20CARD&fontSize=14&fontColor=000000&fontAlignY=10&desc=NAME%3A%20BHAGABAN%20%7C%20ROLE%3A%20FULL-STACK%20DEV%20%7C%20EDU%3A%20B.TECH%20CSE%20%7C%20LOC%3A%20INDIA&descAlignY=30&descSize=12&descColor=000000" alt="ID Card Body" width="45%" />
+<!-- Auto-playing GIF — click ki zaroorat nahi -->
+<img src="https://github.com/bablu-bd7/bablu-bd7/raw/main/bhagaban-portfolio/assets/VID_20261011_225757-ezgif.com-video-cutter.gif" alt="Auto-playing Demo" width="500" />
 
 <br />
 
-<!-- ID Card Photo + QR -->
-<table width="45%">
-<tr>
-<td align="center" width="50%">
-
-<img src="https://github.com/bablu-bd7.png?size=200" alt="Avatar" width="80" height="80" />
-
-<br />
-<sub><code>PHOTO</code></sub>
-
-</td>
-<td align="center" width="50%">
-
-<img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://github.com/bablu-bd7&bgcolor=000000&color=FF6B00" alt="QR" width="80" height="80" />
-
-<br />
-<sub><code>SCAN</code></sub>
-
-</td>
-</tr>
-</table>
-
-<br />
-
-<!-- ID Card Footer with Coloured Background -->
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:00FF41,50:FF6B00,100:00FF41&height=40&text=STATUS%3A%20LEARN%20%2F%20BUILD%20%2F%20INNOVATE&fontSize=14&fontColor=000000&fontAlignY=55&animation=twinkling" alt="ID Card Footer" width="45%" />
+<sub><code>[ AUTO-PLAYING • SEAMLESS • NO CONTROLS ]</code></sub>
 
 <br /><br />
 
