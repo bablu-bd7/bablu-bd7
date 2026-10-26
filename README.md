@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/hero.svg?v=1" alt="Bhagaban Dhupal — Hero Banner" width="860"/>
+<img src="hero.svg?v=1" alt="Bhagaban Dhupal — Hero Banner" width="860"/>
 
 </div>
 
@@ -8,7 +8,7 @@
 
 <div align="center">
 
-<img src="assets/about-life.svg?v=1" alt="About Me & Interests" width="860"/>
+<img src="about-life.svg?v=1" alt="About Me & Interests" width="860"/>
 
 </div>
 
@@ -16,7 +16,7 @@
 
 <div align="center">
 
-<img src="assets/stack.svg?v=1" alt="Tech Stack" width="860"/>
+<img src="stack.svg?v=1" alt="Tech Stack" width="860"/>
 
 </div>
 
@@ -24,7 +24,7 @@
 
 <div align="center">
 
-<img src="assets/id-dashboard.svg?v=1" alt="Developer ID Card" width="860"/>
+<img src="id-dashboard.svg?v=1" alt="Developer ID Card" width="860"/>
 
 </div>
 
@@ -42,7 +42,7 @@
 
 <div align="center">
 
-<img src="assets/connect.svg?v=1" alt="Connect with Bhagaban" width="860"/>
+<img src="connect.svg?v=1" alt="Connect with Bhagaban" width="860"/>
 
 </div>
 
